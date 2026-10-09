@@ -1,0 +1,13 @@
+{
+  "name": "qoder-daily-claim",
+  "version": "1.0.0",
+  "description": "Local-only Windows CLI that claims your own Qoder CN daily free credits via the official client API, using your machine's existing login state. Zero runtime dependencies. No telemetry.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "qoder-daily-claim": "./bin/cli.mjs" },
+  "scripts": { "test": "node --test test/smoke.test.mjs" },
+  "engines": { "node": ">=20.11" },
+  "os": ["win32"],
+  "keywords": ["qoder", "daily", "credits", "automation", "windows"],
+  "files": ["bin", "src", "README.md", "LICENSE", "docs"]
+}
